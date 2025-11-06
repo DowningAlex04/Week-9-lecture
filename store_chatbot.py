@@ -3,6 +3,7 @@ from google.genai.types import GenerateContentConfig
 import rich
 from rich.markdown import Markdown
 import sys
+
 client = genai.Client()
 chat = client.chats.create(model='gemini-2.5-flash')
 
